@@ -51,3 +51,5 @@ Estamos trasteando más con Vite, y nos fijamos en lo siguiente:
 Como Vite es especialista en empaquetar, es conveniente hacerlo de esa manera
 
 Hemos modificado la estructura del código separando estilos y componentes en carpetas y archivos diferentes.
+
+### Desplegamos a Vercel

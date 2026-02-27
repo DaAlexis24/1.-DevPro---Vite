@@ -17,7 +17,7 @@ export const counter = () => {
     /*html*/
     ` 
     <div class="card-counter">
-      <button id="counter" type="button">0</button>
+      <button id="counter" type="button">The counter is 0</button>
     </div>
   `;
 
@@ -33,6 +33,6 @@ export const counter = () => {
   const element = document.querySelector('#counter');
   element?.addEventListener('click', () => {
     counter++;
-    element.innerHTML = `${counter}`;
+    element.innerHTML = `The counter is ${counter}`;
   });
 };

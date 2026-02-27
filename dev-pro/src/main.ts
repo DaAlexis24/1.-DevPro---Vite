@@ -1,15 +1,14 @@
 import './style.css';
 import { hero } from '@/components/hero/hero';
 import { counter } from '@/components/counter/counter';
+import { footer } from '@/components/footer/footer';
 
 const setTemplate = () => {
   return `
   <div>
     <app-hero></app-hero>
     <app-counter></app-counter>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
+    <app-footer></app-footer>
   </div>`;
 };
 
@@ -21,3 +20,4 @@ if (target) {
 
 hero();
 counter();
+footer();

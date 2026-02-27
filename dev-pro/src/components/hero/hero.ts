@@ -6,7 +6,8 @@ Vanilla Component (Versión 2)
 4. Crea un elemento HTML a partir del template
 5. Agregamos lógica
 4. Render template dentro del selector
-  - appendChild (Web Component Style)
+  - appendChild (Angular Style)
+  - replaceWith (React Style)
 */
 
 import typescriptLogo from '@/assets/typescript.svg';
@@ -27,6 +28,7 @@ export const hero = () => {
   `;
 
   const element = document.createElement('div');
+  element.classList.add('hero');
   element.innerHTML = template;
 
   const target = document.querySelector(selector);
