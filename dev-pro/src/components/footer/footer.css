@@ -16,4 +16,13 @@
     a {
         color: gray;
     }
+
+    a:hover {
+        color: #646cff50;
+    }
+
+    svg:hover {
+        transform: scale(1.05) rotate(2deg);
+        box-shadow: 0 0 15px #646cff50;
+    }
 }

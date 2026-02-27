@@ -19,7 +19,7 @@ export const footer = () => {
   `;
 
   const element = document.createElement('footer');
-  element.classList.add('footer');
+  element.classList.add('footer-home');
   element.innerHTML = template;
 
   document.querySelector(selector)?.replaceWith(element);

@@ -4,10 +4,8 @@ import { footer } from '@/components/footer/footer';
 
 const setTemplate = () => {
   return `
-  <div>
     <main></main>
     <app-footer></app-footer>
-  </div>
   `;
 };
 
