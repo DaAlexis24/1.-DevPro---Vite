@@ -53,3 +53,5 @@ Como Vite es especialista en empaquetar, es conveniente hacerlo de esa manera
 Hemos modificado la estructura del código separando estilos y componentes en carpetas y archivos diferentes.
 
 ### Desplegamos a Vercel
+
+Creamos una cuenta en Vercel y definimos el repositorio que queremos desplegar
