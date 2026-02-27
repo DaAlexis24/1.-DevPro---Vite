@@ -40,3 +40,14 @@ Es una herramienta de **compilación frontend** sumamente rápida, ya que su pri
 - Un comando que empaqueta el código usando [Rollup.js](https://rollupjs.org/), esto genera componentes estáticos optimizados para lanzar a producción.
 
 Esta herramienta es perfecta para construir SPA, aplicaciones de alto rendimiento y PWA. Nos da alta velocidad de carga y recarga "en caliente" (HMR).
+
+## DIA 2: 27/02/20206
+
+Estamos trasteando más con Vite, y nos fijamos en lo siguiente:
+
+- Puede importar ficheros CSS
+- Puede importar ficheros SVG
+
+Como Vite es especialista en empaquetar, es conveniente hacerlo de esa manera
+
+Hemos modificado la estructura del código separando estilos y componentes en carpetas y archivos diferentes.
